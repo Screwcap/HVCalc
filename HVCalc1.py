@@ -1,3 +1,11 @@
+"""
+Hotel Valuation Calculator (HVCalc)
+Author: Andrew Fritz (Screwcap, LLC)
+Website: https://boutiquehotel.consulting
+Version: 1.0
+Description: A simple hotel valuation calculator built using Streamlit.
+License: MIT License
+"""
 import streamlit as st
 import numpy as np
 
