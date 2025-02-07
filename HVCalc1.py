@@ -68,6 +68,15 @@ def main():
     st.subheader("Investment Rating: ")
     st.markdown(f"### {rating}")
     
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown(
+        '<small>Built by <a href="https://boutiquehotel.consulting" target="_blank">Screwcap LLC</a>. '
+        'For detailed valuation reports, contact us!</small>',
+        unsafe_allow_html=True
+    )
+
+
+    
     st.markdown("<small>*All information is deemed reliable but not guaranteed. Buyer to verify all information. If you make a bad deal, don’t come crying to us—we just do math.*</small>", unsafe_allow_html=True)
     
 if __name__ == "__main__":
